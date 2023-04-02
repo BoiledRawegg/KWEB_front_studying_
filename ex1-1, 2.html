@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>KWEB STUDY 0327 1차 과제</title>
+</head>
+<!-- Chap 1.4 Exercise 1.1 -->
+
+<body>
+  <h1>KWEB Survey Page</h1>
+  <div>
+    <img src="./kweb-logo.png" , alt="KWEB Logo" width="50%" height="50%">
+  </div>
+  <a href="https://kwebofficial.com/" , target="_blank">KWEB Homepage</a>
+  <div>
+    <label>
+      <h2>1. Write your name.</h2>
+      <input type="text" name="username">
+    </label>
+  </div>
+  <div>
+    <label>
+      <h2>2. Write your student number.</h2>
+      <input type="numeber" name="studentnumber">
+    </label>
+  </div>
+  <div>
+    <h2>3. Select your member level.</h2>
+    <label><input type="radio" name="gender" value="Admin">Admin</label>
+    <label><input type="radio" name="gender" value="Intern">Intern</label>
+    <label><input type="radio" name="gender" value="Qualified">Quaulified</label>
+  </div>
+  <div>
+    <h2>4. Select all fields you are interested in.</h2>
+    <label><input type="checkbox" name="field" value="Front-end">Front-end</label>
+    <label><input type="checkbox" name="field" value="Back-end">Back-end</label>
+    <label><input type="checkbox" name="field" value="Web crawling">Web crawling</label>
+    <label><input type="checkbox" name="field" value="Web security">Web security</label>
+    <label><input type="checkbox" name="field" value="Etcetera">Etcetera <input type="text" name="Etcetera"></label>
+  </div>
+  <div>
+    <h2>5. Give us your overall evaluation and feedback about the previous study.</h2>
+    <textarea cols="125" rows="25"></textarea><br>
+    <button type="submit">Submit your answers</button>
+  </div>
+
+  <!-- Chap 1.4 Exercise 1.2 -->
+
+  <div class="username">
+    <label>
+      <h3>Input username: </h3>
+      <input type="text" name="username">
+    </label>
+  </div>
+  <div class="password">
+    <label>
+      <h3>Input password: </h3>
+      <input type="password" name="password">
+    </label>
+  </div>
+  <div>
+    <h3>Gender: </h3>
+    <span id="gender">
+      <label><input type="radio" name="gender" value="male">Male</label>
+      <label><input type="radio" name="gender" value="female">Female</label>
+      <label><input type="radio" name="gender" value="other">Other</label>
+    </span>
+  </div>
+  <div>
+    <h3>Your Major: </h3>
+    <select name="major">
+      <option value="cs">Computer Science</option>
+      <option value="phy">Physics</option>
+      <option value="chm">Chemistry</option>
+      <option value="math">Mathematics</option>
+    </select>
+  </div>
+  <div>
+    <h3>Introduce yourself: </h3>
+    <textarea cols="40" rows="5" placeholder="Introduce yourself" name="introduction"></textarea>
+  </div>
+
+</body>
+
+</html>
