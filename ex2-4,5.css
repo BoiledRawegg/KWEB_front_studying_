@@ -1,0 +1,109 @@
+
+/* exercise 2-4 */
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: skyblue;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    body{
+        background-color: darkblue;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    h1{
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    h1{
+        color: yellow;
+    }
+}
+
+/* exercise 2-5 */
+
+@media only screen and (max-width: 800px){
+    div {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .header {
+        height: 100px;
+        background-color: pink;
+        border: 1px solid red;
+    }
+
+    .body {
+        display: block;
+    }
+
+    .footer {
+        height: 150px;
+        background-color: lightgreen;
+        border: 1px solid green;
+    }
+
+    .navbar {
+        height: 400px;
+        background-color: yellow;
+        border: 1px solid brown;
+    }
+
+    .content {
+        height: 400px;
+        background-color: skyblue;
+        border: 1px solid blue;
+    }
+}
+
+@media only screen and (min-width:800px) {
+    div {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .header {
+        height: 100px;
+        background-color: pink;
+        border: 1px solid red;
+    }
+
+    .footer {
+        height: 150px;
+        background-color: lightgreen;
+        border: 1px solid green;
+    }
+
+    .body {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
+    .navbar {
+        height: 400px;
+        width: 15%;
+        background-color: yellow;
+        border: 1px solid brown;
+        display: inline-block;
+    }
+
+    .content {
+        height: 400px;
+        width: 83%;
+        background-color: skyblue;
+        border: 1px solid blue;
+        display: inline-block;
+    }
+}
